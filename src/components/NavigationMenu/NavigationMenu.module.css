@@ -1,0 +1,29 @@
+.navMenu {
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px; /* reduced vertical margin */
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-sizing: border-box;
+  padding: 2px 32px; /* minimal vertical padding */
+  border-radius: 18px; /* rounded borders */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+}
